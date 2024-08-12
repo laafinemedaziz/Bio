@@ -1,7 +1,6 @@
 .Container{
   display: block;
   margin: 50px;
-  
   border: 5px solid #ffffff6e; 
 }
 .Me--Image{
@@ -11,4 +10,27 @@
   border-radius: 50%;       
   border: 5px solid #ffffff6e; 
   object-fit: cover; 
+}
+.coordinates{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.coordinates>li{
+  margin: 10px;
+
+}
+.Adress::before{
+  content:url(./assets/Images/location.png);
+  margin-right: 10px;
+}
+.Email::before{
+  content:url(./assets/Images/mail.png);
+  margin-right: 10px;
+}
+.Phone::before{
+  content:url(./assets/Images/phone-call.png);
+  margin-right: 10px;
 }

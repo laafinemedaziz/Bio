@@ -8,7 +8,7 @@ export function MainContent(){
             <h1>Med Aziz Laafine</h1>
             <p>Motivated, passionate and highly disciplined computer science student </p>
             <ul className="coordinates">
-                <li className="Adress">19,9 Avril,Ennajet,Oued Ellil,Chabaw,Manouba,2021</li>
+                <li className="Adress">13,9 Avril,Ennajet,Oued Ellil,Chabaw,Manouba,2021</li>
                 <li className="Email">laafine.med.aziz@gmail.com</li>
                 <li className="Phone">+216 24335292</li>
             </ul>

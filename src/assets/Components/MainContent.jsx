@@ -13,7 +13,7 @@ export function MainContent(){
                 <li className="Phone">+216 24335292</li>
             </ul>
             <Socials />
-            <a href={Resume} target="_blank" className="resume">Profitional resume</a>
+            <a href={Resume} target="_blank" className="resume">Professional resume</a>
         </div>
     )
 }

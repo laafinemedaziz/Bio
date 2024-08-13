@@ -1,15 +1,15 @@
 .Container{
   display: grid;
   place-items: center;
-  margin: 50px;
-  border: 5px solid #ffffff6e; 
+  margin: 3.125rem;
+  border: 0.313rem solid #ffffff6e; 
 }
 .Me--Image{
-  margin: 20px;
-  width: 200px;             
-  height: 200px;             
+  margin: 1.25rem;
+  width: 12.5rem;             
+  height: 12.5rem;             
   border-radius: 50%;       
-  border: 5px solid #ffffff6e; 
+  border: 0.313rem solid #ffffff6e; 
   object-fit: cover; 
 }
 .coordinates{
@@ -20,19 +20,19 @@
 }
 
 .coordinates>li{
-  margin: 10px;
+  margin: 0.625rem;
 }
 .Adress::before{
   content:url(./assets/Images/location.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .Email::before{
   content:url(./assets/Images/mail.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .Phone::before{
   content:url(./assets/Images/phone-call.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .SocialsContainer{
   width: 15rem;
@@ -45,23 +45,23 @@
   list-style-type: none;
 }
 .Socials>li{
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .linkedin::before{
   content: url(./assets/Images/linkedin.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .instagram::before{
   content: url(./assets/Images/instagram.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .facebook::before{
   content: url(./assets/Images/facebook.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .whatsapp::before{
   content: url(./assets/Images/whatsapp.png);
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .resume{
   padding-bottom: 1rem;

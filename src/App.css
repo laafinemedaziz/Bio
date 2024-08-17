@@ -1,8 +1,14 @@
 .Container{
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 3.125rem;
   border: 0.313rem solid #ffffff6e; 
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
 }
 .Me--Image{
   margin: 1.25rem;
@@ -14,7 +20,7 @@
 }
 .coordinates{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style-type: none;
   color: #FFFFFF;
 }
@@ -35,7 +41,8 @@
   margin-right: 0.625rem;
 }
 .SocialsContainer{
-  width: 15rem;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   margin: 1rem;
   border-radius: 20px;
@@ -67,8 +74,6 @@
   padding-bottom: 1rem;
 }
 .footer{
-  position: relative;
   bottom: 0;
-  width: 100%;
   text-align: center;
 }

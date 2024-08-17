@@ -5,10 +5,10 @@ import {Footer} from "./assets/Components/Footer"
 function App() {
 
   return (
-    <>
+    <div className="mainContainer">
       <MainContent />
       <Footer />
-    </>
+    </div>
   )
 }
 

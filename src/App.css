@@ -12,6 +12,9 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
+.bio{
+  text-align: center;
+}
 .Me--Image{
   margin: 1.25rem;
   width: 12.5rem;             
@@ -80,4 +83,12 @@
 .footer{
   bottom: 0;
   text-align: center;
+}
+@media(max-width: 768px){
+  body{
+    background-size: cover;
+  }
+  .coordinates{
+    justify-content: left;
+  }
 }

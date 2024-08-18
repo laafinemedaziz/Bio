@@ -6,7 +6,7 @@ export function MainContent(){
         <div className="Container">
             <img src={MyImage} alt="My image" width="250rem" className="Me--Image"/>
             <h1>Med Aziz Laafine</h1>
-            <p>Motivated, passionate and highly disciplined computer science student </p>
+            <p className="bio">Motivated, passionate and highly disciplined computer science student </p>
             <ul className="coordinates">
                 <li className="Adress">13,9 Avril,Ennajet,Oued Ellil,Chabaw,Manouba,2021</li>
                 <li className="Email">laafine.med.aziz@gmail.com</li>

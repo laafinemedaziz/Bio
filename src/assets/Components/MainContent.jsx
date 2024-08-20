@@ -1,6 +1,7 @@
 import MyImage from "../Images/me.jpg"
 import {Socials} from './Socials'
 import Resume from '../Files/Resume.pdf'
+import CV from '../Files/CV.pdf'
 export function MainContent(){
     return(
         <div className="Container">
@@ -13,7 +14,9 @@ export function MainContent(){
                 <li className="Phone">+216 24335292</li>
             </ul>
             <Socials />
-            <a href={Resume} target="_blank" className="resume">Professional resume</a>
+            <div className="resume">
+                <p>Prefessional Resume: <a href={Resume} target="_blank">English</a> | <a href={CV} target="_blank">French</a></p>
+            </div>
         </div>
     )
 }

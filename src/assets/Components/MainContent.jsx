@@ -20,8 +20,8 @@ export function MainContent(){
             <div className="resume">
                 <p>Motivated, passionate and highly disciplined computer science student. 
                 Here is my CV for further information :</p>
-                <a href={Resume} target="_blank"><img src={FranceIcon} alt="" className="flag"/></a>
-                <a href={CV} target="_blank"><img src={UKIcon} alt="" className="flag"/></a>
+                <a href={CV} target="_blank"><img src={FranceIcon} alt="" className="flag"/></a>
+                <a href={Resume} target="_blank"><img src={UKIcon} alt="" className="flag"/></a>
             </div>
         </div>
     )

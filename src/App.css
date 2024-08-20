@@ -4,10 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3.125rem; 
 }
 .container1{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .container2{
   display: flex;
@@ -19,6 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin: 1rem;
 }
 .bio{
   text-align: center;
@@ -30,19 +34,20 @@
   border: 0.313rem solid #ffffff6e; 
   object-fit: cover; 
 }
-.coordinates{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  list-style-type: none;
-  color: #FFFFFF;
-}
 .name{
   font-family: "Edu VIC WA NT Beginner";
   font-size: larger;
   font-optical-sizing: auto;
   font-style: normal;
   color: #edaf05;
+}
+.coordinates{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .coordinates>li{
   margin: 0.625rem;
@@ -63,14 +68,22 @@
 .SocialsContainer{
   display: flex;
   flex-wrap: wrap;
+
 }
 .Socials{
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.coordinates>li{
+  padding: 1rem;
 }
 .resume{
   display: flex;
+  align-items: center;
 }
 .flag{
   padding-right: 0.5rem;
@@ -84,8 +97,16 @@
 }
 @media(max-width: 768px){
   .Me--Image{
-    margin: 1.25rem;   
     height: 10rem;
     width: 10rem; 
+  }
+  .container1{
+    flex-direction: column;
+  }
+  .Email{
+    border-top:1px solid #ffffff79;
+    border-bottom:1px solid #ffffff79;
+    border-right: none;
+    border-left: none;
   }
 }

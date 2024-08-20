@@ -78,7 +78,7 @@
   margin-right: 0.625rem;
 }
 .github::before{
-  content: url(./assets/Images/Github.png);
+  content: url(./assets/Images/github.png);
   margin-right: 0.625rem;
 }
 .resume{

@@ -15,7 +15,7 @@ export function MainContent(){
             </ul>
             <Socials />
             <div className="resume">
-                <p>Prefessional Resume: <a href={Resume} target="_blank">English</a> | <a href={CV} target="_blank">French</a></p>
+                <p>Professional Resume: <a href={Resume} target="_blank">English</a> | <a href={CV} target="_blank">French</a></p>
             </div>
         </div>
     )

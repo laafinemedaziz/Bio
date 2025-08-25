@@ -1,8 +1,8 @@
 import MyImage from "../Images/me.jpg"
 import {Socials} from './Socials'
 import {Coordinates} from './Coordinates'
-import Resume from '../Files/Resume.pdf'
-import CV from '../Files/CV Med Aziz Laafine.pdf'
+import Resume from '../Files/Med-Aziz-Laafine-CV-ENG.pdf'
+import CV from '../Files/Med-Aziz-Laafine-CV-FR.pdf'
 import FranceIcon from '../Images/FlagsIcons/france.png'
 import UKIcon from '../Images/FlagsIcons/unitedKingdom.png'
 export function MainContent(props){

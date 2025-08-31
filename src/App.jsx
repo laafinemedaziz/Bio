@@ -1,6 +1,8 @@
 import {MainContent} from "./assets/Components/MainContent"
 import './App.css'
 import {Footer} from "./assets/Components/Footer"
+import { Certificate } from "./assets/Components/Certificates"
+import { Projects } from "./assets/Components/Projects"
 import React from "react"
 import Light from "./assets/Images/lightMode.png"
 import Dark from "./assets/Images/darkMode.png"
@@ -24,6 +26,8 @@ function App() {
         }} className="buttons"><img src={darkMode ? Light : Dark}/></button>
       </div>
       <MainContent darkMode={darkMode}/>
+      <Certificate/>
+      <Projects/>
       <Footer darkMode={darkMode}/>
     </div>
   )

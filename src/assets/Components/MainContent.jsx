@@ -20,7 +20,7 @@ export function MainContent(props){
             <Coordinates darkMode={props.darkMode}/>
             
             <div className="resume">
-                <p>Motivated, passionate and highly disciplined computer science student. 
+                <p>Motivated, passionate and highly disciplined computer science graduate. 
                 Here is my CV for further information :</p>
                 <a href={CV} target="_blank"><img src={FranceIcon} alt="" className="flag"/></a>
                 <a href={Resume} target="_blank"><img src={UKIcon} alt="" className="flag"/></a>

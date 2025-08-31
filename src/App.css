@@ -12,6 +12,7 @@
   align-items: center;
   align-content: center;
 }
+
 .container2{
   display: flex;
   flex-direction: column;
@@ -27,6 +28,40 @@
   border-radius: 10px;
   
 }
+.card-wrapper,.project {
+  max-width: 1200px;
+  margin: 10px;
+}
+
+.swiper {
+  height: fit-content;
+}
+
+.card-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.61);
+  width: fit-content;
+}
+
+
+.card-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .bio{
   text-align: center;
 }
@@ -112,6 +147,36 @@
   text-align: center;
   margin-top: 5rem;
 }
+.card-item {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-item.active {
+  position: relative;        
+  transform:scale(1.5);
+  z-index: 9999;                    
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.swiper {
+  overflow: visible !important;  /* allow floating items */
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+
 @media(max-width: 768px){
   .Me--Image{
     height: 10rem;
@@ -119,6 +184,10 @@
   }
   .container1{
     flex-direction: column;
+  }
+  .projects, .achievements{
+    max-width: 350px;
+    font-size: 0.8rem;
   }
   .Email{
     border-top-width: 2px ;

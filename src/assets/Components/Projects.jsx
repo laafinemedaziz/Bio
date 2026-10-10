@@ -12,7 +12,7 @@ export function Projects() {
       <h2>Projects:</h2>
       {projects.map((project, projIndex) => (
         <div className="project" key={projIndex}>
-          <Swiper spaceBetween={50} slidesPerView={project.paths.length / 2 + 0.2}>
+          <Swiper spaceBetween={10} slidesPerView={1}>
             {project.paths.map((path, imgIndex) => (
               <SwiperSlide key={imgIndex}>
                 <div

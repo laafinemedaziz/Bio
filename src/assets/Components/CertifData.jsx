@@ -31,7 +31,8 @@ export default{
             "provider":"Higher Institute Of Multimedia Arts Manouba, Tunisia",
             "date":"Juin 2025",
             "path":"/Certifications/BachelorsCS.png"
-        }
+        },
+         
     ]
 }
 }

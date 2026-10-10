@@ -167,8 +167,7 @@
   position: relative;
 }
 
-.card-item.active {
-  position: absolute;        
+.card-item.active {   
   transform:scale(1.5);
   z-index: 9999;                    
   border-radius: 10px;
@@ -178,6 +177,8 @@
 .swiper {
   overflow: visible !important;  /* allow floating items */
   position: relative;
+  width: 100%;
+  max-width: 100%;
 }
 
 .card-image {
@@ -188,24 +189,45 @@
 }
 
 
-@media(max-width: 768px){
-  .Me--Image{
+
+  
+@media (max-width: 768px) {
+  .Me--Image {
     height: 10rem;
-    width: 10rem; 
+    width: 10rem;
   }
-  .container1{
+
+  .container1 {
     flex-direction: column;
   }
-  .projects, .achievements{
+
+  .projects,
+  .achievements {
+    width: 100%;
     max-width: 350px;
+    min-width: 0;
     font-size: 0.8rem;
   }
-  .Email{
-    border-top-width: 2px ;
-    border-top-style: solid;
-    border-bottom-width: 2px ;
-    border-bottom-style: solid;
+
+  .project {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 10px 0;
+  }
+
+  .swiper {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .Email {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
     border-right: none;
     border-left: none;
   }
 }
+
+  

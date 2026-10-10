@@ -30,7 +30,7 @@ export function Certificate() {
       <div className="degrees">
         <h2>Degrees:</h2>
         <div className="card-wrapper">
-          <Swiper spaceBetween={50} slidesPerView={2.2}>
+          <Swiper spaceBetween={10} slidesPerView={1}>
             {degrees.map((deg, idx) => renderCard(deg, idx))}
           </Swiper>
         </div>
@@ -38,7 +38,7 @@ export function Certificate() {
       <div className="certifs">
         <h2>Certifications:</h2>
         <div className="card-wrapper">
-          <Swiper spaceBetween={50} slidesPerView={2.2}>
+          <Swiper spaceBetween={10} slidesPerView={1}>
             {certificates.map((cert, idx) => renderCard(cert, idx + degrees.length))}
           </Swiper>
         </div>

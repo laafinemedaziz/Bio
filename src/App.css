@@ -28,6 +28,17 @@
   border-radius: 10px;
   
 }
+
+.projects {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.project {
+  min-width: 0;
+}
+
 .card-wrapper,.project {
   max-width: 1200px;
   margin: 10px;
@@ -157,7 +168,7 @@
 }
 
 .card-item.active {
-  position: relative;        
+  position: absolute;        
   transform:scale(1.5);
   z-index: 9999;                    
   border-radius: 10px;

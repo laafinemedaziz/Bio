@@ -1,13 +1,34 @@
-body{
+
+/* Prevent elements from exceeding their expected width */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Keep the page within the viewport */
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+#root {
+  min-width: 0;
+}
+
+body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+
+  width: 100%;       /* Instead of 100vw */
+  min-height: 100vh; /* Instead of height: 100vh */
 
   font-family: "Poppins", sans-serif;
   font-style: normal;
-
 }

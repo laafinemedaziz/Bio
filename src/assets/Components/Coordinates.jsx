@@ -7,12 +7,12 @@ import LightPhone from '../Images/CoordinatesImgs/light-phone.png'
 export function Coordinates (props){
     return(
         <ul className="coordinates">
-                <li className="Adress"><img src={props.darkMode ? LocationIcon : LightLocation} alt="" className='icon'/>Oued Ellil, Manouba, Tunisia</li>
+                <li className="Adress"><img src={props.darkMode ? LocationIcon : LightLocation} alt="" className='icon'/>Tunis, Tunisia</li>
                 <li className="Email" style ={{
                     borderRightColor : props.darkMode ? "#ffffff79" : "#000000",
                     borderLeftColor : props.darkMode ? "#ffffff79" : "#000000"
-                }}><img src={props.darkMode ? EmailIcon : LightEmail} alt="" className='icon' />laafine.med.aziz@gmail.com</li>
-                <li className="Phone"><img src={props.darkMode ? PhoneIcon : LightPhone} alt="" className='icon'/>+216 24335292</li>
+                }}><img src={props.darkMode ? EmailIcon : LightEmail} alt="" className='icon' />laafinemohamedaziz@gmail.com</li>
+                <li className="Phone"><img src={props.darkMode ? PhoneIcon : LightPhone} alt="" className='icon'/>+216 24 335 292</li>
             </ul>
     )
 }

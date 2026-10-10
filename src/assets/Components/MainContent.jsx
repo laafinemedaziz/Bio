@@ -21,7 +21,7 @@ export function MainContent(props){
             
             <div className="resume">
                 <p>Motivated, passionate and highly disciplined computer science graduate. 
-                Here is my CV for further information :</p>
+                Here is my <span style={{color: "#edaf05", fontSize: "larger"}}>CV</span> for further information :</p>
                 <a href={CV} target="_blank"><img src={FranceIcon} alt="" className="flag"/></a>
                 <a href={Resume} target="_blank"><img src={UKIcon} alt="" className="flag"/></a>
             </div>

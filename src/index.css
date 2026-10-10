@@ -25,10 +25,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  width: 100%;       /* Instead of 100vw */
-  min-height: 100vh; /* Instead of height: 100vh */
-
+  width: 100%;      
+  min-height: 100vh; 
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
